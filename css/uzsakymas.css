@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    overflow: hidden;
+	background-color: #EFEFEF;
+    display: flex;
+    font-family: 'Nunito';
+}
+
+button {
+    border-radius: 50px !important;
+	font-size: 12px !important;
+	padding: 10px 20px !important;
+	text-transform: uppercase;
+	color: #fff !important;
+}
+
+header {
+    width: 100%;
+}
+
+/* ========================= FORMA ================================*/
+
+.forma {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	height: 100%;
+	width: 50%;
+	position: relative;
+}
+
+.forma h1 {
+    color: #2A9D8F !important;
+    font-size: 35px;
+}
+
+.forma input {
+    background-color: #fff;
+	border: none;
+	padding: 8px 20px;
+	text-indent: 10px;
+	color: black !important;
+}
+
+.forma button {
+    background: #f4a261;
+	padding: 10px 40px !important;
+}

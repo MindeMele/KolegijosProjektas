@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    overflow: hidden;
+	background-color: #EFEFEF;
+    display: flex;
+    color: #fff !important;
+    font-family: 'Nunito';
+    color: #fff !important;
+}
+
+.bg {
+    background-color: #2a9d8f !important;
+}
+
+.bg .nav-item .nav-link {
+    color: #fff !important;
+}
+
+.dropdown-menu {
+    margin-right: 50px;
+}

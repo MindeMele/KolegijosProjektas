@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+/* ========================================= BENDRAS STILIUS ==================================*/
+
+* , *::before, *::after {
+    padding: 0px;
+	margin: 0px;
+	font-family: 'Nunito';
+	color: #fff !important;
+}
+
+body {
+    overflow: hidden;
+	height: 100vh;
+	width: 100vw;
+	background-color: #EFEFEF;
+	display: flex;
+}
+
+button {
+	border-radius: 50px !important;
+	font-size: 12px !important;
+	padding: 10px 20px !important;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+header .circle {
+	position: absolute;
+}
+
+header .circles #first {
+	bottom: 0;
+	left: 0;
+	transform: translate(-200px, 200px);
+}
+
+header .circles #second {
+	top: 0;
+	right: 0;
+	transform: translate(200px, -200px);
+}
+
+.table-bg {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+
+.photo {
+	height: 90%;
+}
+
+.blokas {
+    background-color: #fff;
+	height: 80%;
+	width: 80%;
+    margin: auto;
+    position: relative;
+	border-radius: 50px;
+	-webkit-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 29px -9px rgba(0,0,0,0.75);
+	display: flex;
+}
+
+.nuotrauka img {
+	position: absolute;
+	bottom: 0px;
+	left: 0ex;
+	right: 0px;
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+}
+
+/* ===================================================== JUDANTIS BLOKAS ===================================*/
+
+.move {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+  	position: absolute;
+	transition: 0.6s;
+	border-radius: 50px;
+}
+
+.move {
+	height: 100%;
+	width: 50%;
+	background-color: #2A9D8F;
+}
+
+.move .paragraph {
+	margin: 0px 20px;
+}
+
+.move .paragraph h1 {
+	font-size: 35px;
+}
+
+.move .paragraph p {
+	padding: 20px 0;
+	font-size: 18px;
+}
+
+.move .paragraph button {
+	background: #2A9D8F;
+	border: 3px solid #fff;
+	padding: 10px 40px !important;
+}
+
+/* ==================================== REGISTRACIJA ======================================*/
+
+.registracija {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	height: 100%;
+	width: 50%;
+	position: relative;
+}
+
+.registracija .laukelis h1,
+.login .prisijungti h1{
+	color: #2A9D8F !important;
+	font-size: 35px;
+}
+
+.registracija .laukelis .input-container input,
+.login .prisijungti .input-container input {
+	background-color: #ECF3F2;
+	border: none;
+	padding: 8px 20px;
+	text-indent: 20px;
+	color: black !important;
+}
+
+.registracija .laukelis .input-container img,
+.login .prisijungti .input-container img {
+	max-width: 15px;
+	transform: translate(35px, 0px);
+}
+
+.registracija .laukelis button,
+.login .prisijungti button {
+	background-color: #2A9D8F;
+}
+
+/* ======================================== PRISIJUNGIMAS ===========================*/
+
+.login {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	height: 100%;
+	width: 50%;
+	position: relative;
+}
+
+.login .prisijungti button {
+	background: #2A9D8F;
+	border: 3px solid #fff;
+	padding: 10px 40px !important;
+}
+
+.klaidos {
+	color: red !important;
+}

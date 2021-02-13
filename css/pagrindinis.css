@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+	background-color: #EFEFEF;
+    display: flex;
+    font-family: 'Nunito';
+}
+
+
+header {
+    width: 100%;
+}
+
+.tekstas {
+    color: #000 !important;
+}
+
+.trinti form input {
+    background-color: #fff;
+	border: none;
+	padding: 8px 20px;
+	text-indent: 10px;
+	color: black !important;
+}
+
+.trinti form button {
+    background: #f4a261;
+    padding: 10px 40px !important;
+    border-radius: 50px;
+	font-size: 12px !important;
+	text-transform: uppercase;
+	color: #fff !important;
+}
